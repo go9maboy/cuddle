@@ -1,0 +1,72 @@
+{
+  "diseases": [
+    {
+      "title": "Infancy/Childhood/Adolescence Disorders",
+      "count": 5922
+    },
+    {
+      "title": "Delirium/Dementia/Amnestic/Cognitive Disorders",
+      "count": 2752
+    },
+    {
+      "title": "Mental Disorders Due to Medical Condition",
+      "count": 1560
+    },
+    {
+      "title": "Substance-Related Disorders",
+      "count": 16852
+    },
+    {
+      "title": "Schizophrenia/Psychotic Disorders",
+      "count": 20324
+    },
+    {
+      "title": "Mood Disorders",
+      "count": 18796
+    },
+    {
+      "title": "Anxiety Disorders",
+      "count": 8584
+    },
+    {
+      "title": "Somatoform Disorders",
+      "count": 294
+    },
+    {
+      "title": "Factitious Disorders",
+      "count": 10
+    },
+    {
+      "title": "Dissociative Disorders",
+      "count": 91
+    },
+    {
+      "title": "Sexual/Gender Identity Disorders",
+      "count": 78
+    },
+    {
+      "title": "Eating disorders",
+      "count": 1950
+    },
+    {
+      "title": "Sleep Disorders",
+      "count": 23
+    },
+    {
+      "title": "Impulse-Control Disorders",
+      "count": 61
+    },
+    {
+      "title": "Adjustment Disorders",
+      "count": 3192
+    },
+    {
+      "title": "Personality Disorders",
+      "count": 3107
+    },
+    {
+      "title": "Other Conditions",
+      "count": 941
+    }
+  ]
+}

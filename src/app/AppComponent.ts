@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './AppComponent.html',
+  styleUrls: ['./AppComponent.css']
 })
 export class AppComponent {
   title = 'lockdown-app';
