@@ -12,6 +12,7 @@ The current Support System expects people to know their current mental status an
 
 In contrast, the Cuddle first estimates 5 most commonly occurring mental diseases based on the user's age, gender, and ethnicity. It displays the percentage of people in your group who are also suffering from similar diseases. This helps users to open up their feelings and emotion and encourage them to step out and try to get help. Knowing you are not alone could help users to increase their awareness and reducing their shamefulness. Based on the estimate, Cuddle recommends a simple customized survey to diagnose the disease better. Then, it finally provides the right support service to the patient.
 
+Watch our video for short introduction [here](https://www.youtube.com/watch?v=dNuNgEuOvl8)
 Try our demo [here](https://noahsong.github.io/cuddle/)
 
 ## Motivation
