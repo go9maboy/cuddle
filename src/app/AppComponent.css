@@ -10,7 +10,7 @@
 
 .bg-image {
   /* The image used */
-  background-image: url("../assets//images/pexels-marcus-aurelius-6787787.jpg");
+  background-image: url("../assets/images/pexels-marcus-aurelius-6787787.jpg");
 
   /* Full height */
   height: 100%;
@@ -55,15 +55,6 @@ p {
   margin: 0 16px;
 }
 
-.toolbar #twitter-logo {
-  height: 40px;
-  margin: 0 16px;
-}
-
-.toolbar #twitter-logo:hover {
-  opacity: 0.8;
-}
-
 .content {
   display: flex;
   margin: 0px auto 0px;
@@ -76,7 +67,6 @@ p {
 .center {
   position: absolute;
   top: 20%;
-
   width: 50%;
 }
 
