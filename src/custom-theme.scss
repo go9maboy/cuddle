@@ -1,0 +1,102 @@
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import "~@angular/material/theming";
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+
+$md-primary: (
+  50: #fef8e1,
+  100: #fdebb3,
+  200: #fcde82,
+  300: #fbd34f,
+  400: #fbc729,
+  500: #fabe0c,
+  600: #fab004,
+  700: #fa9e03,
+  800: #fa9e03,
+  900: #f96d02,
+  A100: #70b1ff,
+  A200: #3d95ff,
+  A400: #0a79ff,
+  A700: #006df0,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #ffffff,
+    A700: #ffffff,
+  ),
+);
+
+$md-red: (
+  50: #fdebea,
+  100: #fbceca,
+  200: #f8ada7,
+  300: #f58c84,
+  400: #f37369,
+  500: #f15a4f,
+  600: #ef5248,
+  700: #ed483f,
+  800: #eb3f36,
+  900: #e72e26,
+  A100: #ffffff,
+  A200: #ffefef,
+  A400: #ffbebc,
+  A700: #ffa6a2,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #000000,
+    400: #000000,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #000000,
+  ),
+);
+
+$lockdown-app-primary: mat-palette($md-primary);
+$lockdown-app-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$lockdown-app-warn: mat-palette($mat-red);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$lockdown-app-theme: mat-light-theme(
+  (
+    color: (
+      primary: $lockdown-app-primary,
+      accent: $lockdown-app-accent,
+      warn: $lockdown-app-warn,
+    ),
+  )
+);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($lockdown-app-theme);
